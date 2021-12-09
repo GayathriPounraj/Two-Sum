@@ -12,10 +12,8 @@ function add(){
   for (let i = 0; i < arr1.length; i++) {
     let diff = addSum - arr1[i];
     if (diff > arr1[i] && arr1.includes(diff)) {
-      appDiv.innerHTML=('Arr pair has value ' + arr1[i]+ ': ' + diff);
-    //res.push(arr1[i]);
+      appDiv.innerHTML=('Arr pair has value ' + arr1[i]+ ': ' + diff);    
     }
-    }
- // appDiv.innerHTML=res;
+    } 
 }
 
